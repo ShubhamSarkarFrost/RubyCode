@@ -50,7 +50,9 @@ sentence = " welcome to the jungle"
 new_sen = sentence.sub("the jungle", "utopia")
 print new_sen
 
-
+#esc sequence 
+converse_sen = "Shubham asked \' Hi Akash How you are Doing ?\' "
+print converse_sen
 
 
 
