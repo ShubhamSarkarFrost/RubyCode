@@ -54,5 +54,14 @@ print new_sen
 converse_sen = "Shubham asked \' Hi Akash How you are Doing ?\' "
 print converse_sen
 
+# String concatination 
+x = "5"
+puts x * 2 
 
-
+puts x + x 
+# to print a Straight line
+puts "-" * 20
+# or to print a Straight Line 
+20.times{print("-")}
+# print 'hi' 20 times 
+20.times{puts("hi")}
