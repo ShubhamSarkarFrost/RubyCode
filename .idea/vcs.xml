@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Rails_Hello_World" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Ruby_Rails_Master_Load_Projects/Rails_Hello_World" vcs="Git" />
   </component>
 </project>
