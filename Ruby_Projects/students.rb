@@ -1,7 +1,7 @@
-# $LOAD_PATH << '.'
-# require 'crud'
+require_relative 'crud'
 
 class Student
+  include Crud
   attr_accessor :first_name,:last_name,:email,:username,:password
 
   @first_name
@@ -42,12 +42,6 @@ end
 shubham = Student.new("shubham","sarkar","subhampandora123@gmail.com","Shubham@123","Shubham12@")
 john = Student.new("John","Doe","john1","john12@gmail.com","Dozer12@")
 
-
-puts shubham
-# puts john
-# shubham.last_name = john.last_name
-# puts "Shubham's Last Name is altered"
-# puts shubham
-
-
-
+# p shubham
+hashed_password = shubham.create_hash_digest(shubham.password)
+puts hashed_password
